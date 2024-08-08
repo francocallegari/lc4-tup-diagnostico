@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./App.css";
-import FunctionForm from "./components/functionForm/FunctionForm";
 import FunctionList from "./components/functionList/FunctionList";
+import FunctionForm from "./components/functionForm/FunctionForm";
 import movies from "./data/movies";
-import functions from "./data/functions";
+import initialFunctions from "./data/functions";
+import Button from 'react-bootstrap/Button';
 
 function App() {
-  const [functionsList, setFunctionsList] = useState(functions);
+  const [functionsList, setFunctionsList] = useState(initialFunctions);
   const [editingFunction, setEditingFunction] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleAddFunction = (newFunction) => {
     setFunctionsList([
@@ -38,16 +40,26 @@ function App() {
   return (
     <div>
       <h1>Gestión de Funciones</h1>
-      <FunctionForm
-        onSubmit={handleAddFunction}
-        initialData={editingFunction}
-        movies={movies}
-      />
-      <br/>
+      <Button variant="primary" onClick={() => setIsModalOpen(true)}>
+        Agregar Nueva Función
+      </Button>
       <FunctionList
         functions={functionsList}
         onEdit={handleEditFunction}
         onDelete={handleDeleteFunction}
+      />
+      <FunctionForm
+        onSubmit={(data) => {
+          if (editingFunction) {
+            handleUpdateFunction({ ...data, id: editingFunction.id });
+          } else {
+            handleAddFunction(data);
+          }
+        }}
+        initialData={editingFunction}
+        movies={movies}
+        show={isModalOpen}
+        handleClose={() => setIsModalOpen(false)}
       />
     </div>
   );
