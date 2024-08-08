@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4xkPow4UhOE=",
+  "dgSpecHash": "9mJ1EiKrp8M=",
   "success": true,
-  "projectFilePath": "E:\\SurceCode\\UTN\\LabComIIII\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

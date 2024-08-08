@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q1Uwq18N28A=",
+  "dgSpecHash": "PfM4U6d8kNE=",
   "success": true,
-  "projectFilePath": "E:\\SurceCode\\UTN\\LabComIIII\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

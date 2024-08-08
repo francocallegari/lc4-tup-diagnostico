@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SurceCode\\UTN\\LabComIIII\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+      "projectUniqueName": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+      "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-      "outputPath": "E:\\SurceCode\\UTN\\LabComIIII\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
+      "outputPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
