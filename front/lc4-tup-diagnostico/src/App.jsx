@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import "bootstrap/dist/css/bootstrap.min.css";
 import FunctionList from "./components/functionList/FunctionList";
 import FunctionForm from "./components/functionForm/FunctionForm";
 import movies from "./data/movies";
 import initialFunctions from "./data/functions";
-import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
+import Button from "react-bootstrap/Button";
 
 function App() {
   const [functionsList, setFunctionsList] = useState(initialFunctions);
@@ -27,7 +26,8 @@ function App() {
   const handleAddFunction = (newFunction) => {
     const directorFunctionsToday = functionsList.filter(
       (func) =>
-        func.director === newFunction.director && func.fecha === newFunction.fecha
+        func.director === newFunction.director &&
+        func.fecha === newFunction.fecha
     );
   
     if (directorFunctionsToday.length >= 10) {
@@ -47,7 +47,7 @@ function App() {
         }
       );
   
-      if (movieFunctions.length >= 2) {
+      if (movieFunctions.length >= 8) {
         showAlert("Las películas internacionales pueden tener un máximo de 8 funciones.", "warning");
         return;
       }
@@ -84,6 +84,11 @@ function App() {
     showAlert("Función eliminada exitosamente.", "danger");
   };
 
+  const openAddFunctionModal = () => {
+    setEditingFunction(null); // Limpiar cualquier función en edición
+    setIsModalOpen(true);
+  };
+
   return (
     <div>
       <h1>Gestión de Funciones</h1>
@@ -114,7 +119,7 @@ function App() {
             handleAddFunction(data);
           }
         }}
-        initialData={editingFunction}
+        initialData={editingFunction || {}} // Si no hay función en edición, pasar un objeto vacío
         movies={movies}
         show={isModalOpen}
         handleClose={() => setIsModalOpen(false)}
