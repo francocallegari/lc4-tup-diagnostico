@@ -1,39 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\manue\\OneDrive\\Escritorio\\dpb\\packages": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj"
+              "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -68,33 +64,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\manue\\OneDrive\\Escritorio\\dpb\\packages": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -132,40 +124,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\manue\\OneDrive\\Escritorio\\dpb\\packages": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
-                "projectPath": "E:\\SurceCode\\UTN\\LabComIIII\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
+              "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
               }
             }
           }
@@ -184,6 +172,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -200,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
