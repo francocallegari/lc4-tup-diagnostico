@@ -1,34 +1,36 @@
 import React, { useState } from "react";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import "bootstrap/dist/css/bootstrap.min.css";
 import FunctionList from "./components/functionList/FunctionList";
 import FunctionForm from "./components/functionForm/FunctionForm";
 import movies from "./data/movies";
 import initialFunctions from "./data/functions";
-import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
+import Button from "react-bootstrap/Button";
 
 function App() {
   const [functionsList, setFunctionsList] = useState(initialFunctions);
   const [editingFunction, setEditingFunction] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [alertMessage, setAlertMessage] = useState('');
-  const [alertVariant, setAlertVariant] = useState('');
+  const [alertMessage, setAlertMessage] = useState("");
+  const [alertVariant, setAlertVariant] = useState("");
 
   const handleAddFunction = (newFunction) => {
-    // Verifica cuantas funciones tiene el director en el dia
+    // Verifica cuántas funciones tiene el director en el día
     const directorFunctionsToday = functionsList.filter(
       (func) =>
-        func.director === newFunction.director && func.fecha === newFunction.fecha
+        func.director === newFunction.director &&
+        func.fecha === newFunction.fecha
     );
 
     if (directorFunctionsToday.length >= 10) {
-      setAlertMessage("Este director ya tiene el máximo de 10 funciones en este día");
+      setAlertMessage(
+        "Este director ya tiene el máximo de 10 funciones en este día"
+      );
       setAlertVariant("warning");
       return;
     }
 
-    // Verifica si la pelicula es internacional y tiene mas de 8 funciones
+    // Verifica si la película es internacional y tiene más de 8 funciones
     const isInternational = movies.find(
       (movie) => movie.title === newFunction.pelicula
     )?.international;
@@ -39,13 +41,15 @@ function App() {
       );
 
       if (movieFunctions.length >= 8) {
-        setAlertMessage("Las películas internacionales pueden tener un máximo de 8 funciones.");
+        setAlertMessage(
+          "Las películas internacionales pueden tener un máximo de 8 funciones."
+        );
         setAlertVariant("warning");
         return;
       }
     }
 
-    // Si pasas todas las validaciones, agregas la funcion
+    // Si pasa todas las validaciones, agrega la función
     setFunctionsList([
       ...functionsList,
       { ...newFunction, id: functionsList.length + 1 },
@@ -71,10 +75,15 @@ function App() {
     setFunctionsList(functionsList.filter((func) => func.id !== id));
   };
 
+  const openAddFunctionModal = () => {
+    setEditingFunction(null); // Limpiar cualquier función en edición
+    setIsModalOpen(true);
+  };
+
   return (
     <div>
       <h1>Gestión de Funciones</h1>
-      <Button variant="primary" onClick={() => setIsModalOpen(true)}>
+      <Button variant="primary" onClick={openAddFunctionModal}>
         Agregar Nueva Función
       </Button>
       <FunctionList
@@ -90,7 +99,7 @@ function App() {
             handleAddFunction(data);
           }
         }}
-        initialData={editingFunction}
+        initialData={editingFunction || {}} // Si no hay función en edición, pasar un objeto vacío
         movies={movies}
         show={isModalOpen}
         handleClose={() => setIsModalOpen(false)}

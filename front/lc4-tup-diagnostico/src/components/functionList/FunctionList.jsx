@@ -1,11 +1,10 @@
-import React from 'react';
-import Table from 'react-bootstrap/Table';
-import Button from 'react-bootstrap/Button';
-import './functionList.css'
+import React from "react";
+import Table from "react-bootstrap/Table";
+import Button from "react-bootstrap/Button";
 
 const FunctionList = ({ functions, onEdit, onDelete }) => {
   return (
-    <div className='table-container'>
+    <div className="table-container">
       <h2>Lista de funciones:</h2>
       <Table striped bordered hover>
         <thead>
@@ -31,7 +30,7 @@ const FunctionList = ({ functions, onEdit, onDelete }) => {
               <td>
                 <Button variant="warning" onClick={() => onEdit(func)}>
                   Editar
-                </Button>{' '}
+                </Button>{" "}
                 <Button variant="danger" onClick={() => onDelete(func.id)}>
                   Eliminar
                 </Button>
@@ -45,4 +44,3 @@ const FunctionList = ({ functions, onEdit, onDelete }) => {
 };
 
 export default FunctionList;
-

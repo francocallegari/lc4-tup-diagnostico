@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const UseFetch = (url) => {
   const [data, setData] = useState(null);
@@ -30,7 +30,7 @@ const UseFetch = (url) => {
 export default UseFetch;
 
 // PARA HACER EL FETCH EN OTROS COMPONENTES:
-// const { data: functions, loading, error } = useFetch('/api/functions'); 
+// const { data: functions, loading, error } = useFetch('/api/functions');
 
 //   if (loading) return <p>Cargando...</p>;
 //   if (error) return <p>Error: {error}</p>;
