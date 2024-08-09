@@ -1,0 +1,12 @@
+.table-container {
+  margin: 80px;
+}
+
+.table-container .table {
+  overflow: hidden;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}

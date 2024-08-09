@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import FunctionList from "./components/functionList/FunctionList";
 import FunctionForm from "./components/functionForm/FunctionForm";
 import movies from "./data/movies";
