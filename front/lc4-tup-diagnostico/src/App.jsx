@@ -15,41 +15,52 @@ function App() {
   const [alertMessage, setAlertMessage] = useState('');
   const [alertVariant, setAlertVariant] = useState('');
 
+  const showAlert = (message, variant) => {
+    setAlertMessage(message);
+    setAlertVariant(variant);
+
+    setTimeout(() => {
+      setAlertMessage('');
+    }, 5000);
+  };
+
   const handleAddFunction = (newFunction) => {
-    // Verifica cuantas funciones tiene el director en el dia
     const directorFunctionsToday = functionsList.filter(
       (func) =>
         func.director === newFunction.director && func.fecha === newFunction.fecha
     );
-
+  
     if (directorFunctionsToday.length >= 10) {
-      setAlertMessage("Este director ya tiene el máximo de 10 funciones en este día");
-      setAlertVariant("warning");
+      showAlert("Este director ya tiene el máximo de 10 funciones en este día", "warning");
       return;
     }
-
-    // Verifica si la pelicula es internacional y tiene mas de 8 funciones
-    const isInternational = movies.find(
+  
+    const selectedMovie = movies.find(
       (movie) => movie.title === newFunction.pelicula
-    )?.international;
-
-    if (isInternational) {
+    );
+  
+    if (selectedMovie && selectedMovie.genre === "International") {
       const movieFunctions = functionsList.filter(
-        (func) => func.pelicula === newFunction.pelicula
+        (func) => {
+          const movie = movies.find((movie) => movie.title === func.pelicula);
+          return movie && movie.genre === "International";
+        }
       );
-
-      if (movieFunctions.length >= 8) {
-        setAlertMessage("Las películas internacionales pueden tener un máximo de 8 funciones.");
-        setAlertVariant("warning");
+  
+      if (movieFunctions.length >= 2) {
+        showAlert("Las películas internacionales pueden tener un máximo de 8 funciones.", "warning");
         return;
       }
     }
-
-    // Si pasas todas las validaciones, agregas la funcion
+  
+    // Si pasa las validaciones, agrega la funcion
     setFunctionsList([
       ...functionsList,
       { ...newFunction, id: functionsList.length + 1 },
     ]);
+  
+    showAlert("Función agregada exitosamente", "success");
+    setIsModalOpen(false);
   };
 
   const handleEditFunction = (func) => {
@@ -65,23 +76,36 @@ function App() {
     );
     setEditingFunction(null);
     setIsModalOpen(false);
+    showAlert("Función actualizada exitosamente", "success");
   };
 
   const handleDeleteFunction = (id) => {
     setFunctionsList(functionsList.filter((func) => func.id !== id));
+    showAlert("Función eliminada exitosamente.", "danger");
   };
 
   return (
     <div>
       <h1>Gestión de Funciones</h1>
+
+      <div className="alert-container">
+      {alertMessage && (
+        <Alert variant={alertVariant} onClose={() => setAlertMessage('')} dismissible>
+          {alertMessage}
+        </Alert>
+      )}
+      </div>
+
       <Button variant="primary" onClick={() => setIsModalOpen(true)}>
         Agregar Nueva Función
       </Button>
+      
       <FunctionList
         functions={functionsList}
         onEdit={handleEditFunction}
         onDelete={handleDeleteFunction}
       />
+      
       <FunctionForm
         onSubmit={(data) => {
           if (editingFunction) {
