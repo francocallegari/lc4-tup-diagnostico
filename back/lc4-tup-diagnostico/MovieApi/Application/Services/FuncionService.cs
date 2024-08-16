@@ -32,7 +32,7 @@ namespace Application.Services
 
         public FuncionDto GetById(int id)
         {
-            var funcion = _funcionRepository.GetById(id)
+            var funcion = _funcionRepository.GetFuncionById(id)
                 ?? throw new Exception("Funcion no encontrada");
 
             return FuncionDto.Create(funcion);
@@ -57,17 +57,24 @@ namespace Application.Services
 
         public void Update(FuncionUpdateRequest funcionRequest, int id)
         {
-            var funcion = _funcionRepository.GetById(id)
+            var funcion = _funcionRepository.GetFuncionById(id)
                 ?? throw new Exception("Funcion no encontrada");
-
-            var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
-                ?? throw new Exception("Pelicula no encontrada");
 
             funcion.Fecha = funcionRequest.Fecha ?? funcion.Fecha;
             funcion.Precio = funcionRequest.Precio ?? funcion.Precio;
-            funcion.Hora = funcionRequest.Horario ?? funcion.Hora;
-            funcion.PeliculaId = funcionRequest.PeliculaId ?? funcion.PeliculaId;
-            funcion.Pelicula = pelicula;
+            funcion.Hora = funcionRequest.Hora ?? funcion.Hora;
+            if (funcionRequest.PeliculaId != null)
+            {
+                var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
+                ?? throw new Exception("Pelicula no encontrada");
+
+                funcion.PeliculaId = (int)funcionRequest.PeliculaId;
+                funcion.Pelicula = pelicula;
+            } else
+            {
+                funcion.Pelicula = funcion.Pelicula;
+                funcion.PeliculaId = funcion.PeliculaId;
+            }
 
             _funcionRepository.Update(funcion);
 
@@ -75,7 +82,7 @@ namespace Application.Services
 
         public void Delete(int id)
         {
-            var funcion = _funcionRepository.GetById(id)
+            var funcion = _funcionRepository.GetFuncionById(id)
                 ?? throw new Exception("Funcion no encontrada");
 
             _funcionRepository.Delete(funcion);
