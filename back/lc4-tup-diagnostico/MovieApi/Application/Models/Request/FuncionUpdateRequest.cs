@@ -9,8 +9,8 @@ namespace Application.Models.Request
 {
     public class FuncionUpdateRequest
     {
-        public DateOnly? Fecha { get; set; }
-        public TimeOnly? Horario { get; set; }
+        public DateOnly? Fecha {  get; set; }
+        public TimeOnly? Hora { get; set; }
         public float? Precio { get; set; }
         public int? PeliculaId { get; set; }
     }

@@ -19,5 +19,10 @@ namespace Infrastructure.Data
         {
             return _context.Funciones.Include(f => f.Pelicula).ThenInclude(p => p.Director).ToList();
         }
+
+        public Funcion GetFuncionById(int id)
+        {
+            return _context.Funciones.Include(f => f.Pelicula).ThenInclude(p => p.Director).FirstOrDefault(f => f.IdFuncion == id);
+        }
     }
 }
