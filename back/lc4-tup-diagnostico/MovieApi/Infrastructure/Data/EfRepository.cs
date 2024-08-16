@@ -8,10 +8,10 @@ namespace Infrastructure.Data
 {
     public class EfRepository<T> : RepositoryBase<T> where T : class
     {
-        private readonly ApplicationContext _context;
-        public EfRepository(ApplicationContext context) : base(context)
+        protected readonly ApplicationContext _context;
+        public EfRepository(ApplicationContext dbContext) : base(dbContext)
         {
-            _context = context;
+            _context = dbContext;
         }
     }
 }

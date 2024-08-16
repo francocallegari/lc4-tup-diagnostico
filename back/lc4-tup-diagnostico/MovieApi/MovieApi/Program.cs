@@ -1,3 +1,7 @@
+using Application.Interfaces;
+using Application.Services;
+using Domain.Entities;
+using Domain.Interfaces;
 using Infrastructure.Data;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +15,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:5173")
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
 
 #region Database
 string connectionString = builder.Configuration["ConnectionStrings:DBConnectionString"];
@@ -31,6 +45,13 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 
 #endregion
 
+// Repositories
+builder.Services.AddScoped<IRepositoryBase<Director>, EfRepository<Director>>();
+builder.Services.AddScoped<IPeliculaRepository, PeliculaRepository>();
+builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
+
+// Services
+builder.Services.AddScoped<IFuncionService, FuncionService>();
 
 var app = builder.Build();
 
@@ -40,6 +61,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
 

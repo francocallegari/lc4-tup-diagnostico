@@ -1,4 +1,5 @@
-﻿using Domain.Enums;
+﻿using Domain.Entities;
+using Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,11 +11,22 @@ namespace Application.Models
 {
     public class PeliculaDto
     {
-        [Required]
         public int Id { get; set; }
-        [Required]
         public string Nombre { get; set; }
-        [Required]
         public OrigenPelicula Origen {  get; set; }
+        public int DirectorPeliculaId { get; set; }
+        public DirectorDto Director { get; set; }
+
+        public static PeliculaDto Create(Pelicula pelicula)
+        {
+            var dto = new PeliculaDto();
+            dto.Id = pelicula.IdPelicula;
+            dto.Nombre = pelicula.NombrePelicula;
+            dto.Origen = pelicula.OrigenPelicula;
+            dto.DirectorPeliculaId = pelicula.DirectorPeliculaId;
+            dto.Director = DirectorDto.Create(pelicula.Director);
+
+            return dto;
+        }
     }
 }

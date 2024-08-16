@@ -13,15 +13,15 @@ namespace Application.Models
         [Required]
         public int Id { get; set; }
         [Required]
-        public DateTime Fecha { get; set; }
+        public DateOnly Fecha { get; set; }
         [Required]
-        public DateTime Horario { get; set; }
+        public TimeOnly Horario { get; set; }
         [Required]
         public float Precio { get; set; }
         [Required]
         public int PeliculaId { get; set; }
         [Required]
-        public int DirectorId { get; set; }
+        public PeliculaDto Pelicula { get; set; }
 
         public static FuncionDto Create(Funcion funcion)
         {
@@ -30,8 +30,8 @@ namespace Application.Models
             dto.Fecha = funcion.Fecha;
             dto.Horario = funcion.Hora;
             dto.Precio = funcion.Precio;
-            dto.PeliculaId = funcion.PeliculaId; //no se
-            dto.DirectorId = funcion.Pelicula.DirectorPelicula; //no se
+            dto.PeliculaId = funcion.PeliculaId;
+            dto.Pelicula = PeliculaDto.Create(funcion.Pelicula);
 
             return dto;
         }

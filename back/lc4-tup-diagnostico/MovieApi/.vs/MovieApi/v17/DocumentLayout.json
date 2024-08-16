@@ -1,30 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\",
+  "WorkspaceRootPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\funcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\funcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\pelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\pelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\interfaces\\ipelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipelicularepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\interfaces\\ifuncionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ifuncionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\funtiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\funtiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\delfi\\diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\entities\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\controllers\\funcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\controllers\\funcioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\interfaces\\ifuncionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ifuncionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\entities\\funcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\funcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\funciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\funciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\entities\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\enums\\origenpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\origenpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\migrations\\20240809223805_second-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240809223805_second-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\migrations\\20240809223324_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240809223324_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|c:\\users\\anabe\\onedrive\\documentos\\tp-diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,12 +114,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -49,96 +125,334 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PeliculaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
-              "RelativeToolTip": "Application\\Models\\PeliculaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "IFuncionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IFuncionRepository.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IFuncionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:57:02.17Z",
+              "WhenOpened": "2024-08-16T21:06:55.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DirectorDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\DirectorDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
-              "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "FuncionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\FuncionRepository.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs*",
+              "RelativeToolTip": "Infrastructure\\Data\\FuncionRepository.cs*",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:56:19.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuntionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuntionDto.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\FuntionDto.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuntionDto.cs",
-              "RelativeToolTip": "Application\\Models\\FuntionDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:50:18.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EfRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\EfRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:39:34.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:30:06.432Z",
+              "WhenOpened": "2024-08-16T21:05:46.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\RepositoryBase.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\RepositoryBase.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwAwAAAAAAAAA",
+              "Title": "FuncionService.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\FuncionService.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
+              "RelativeToolTip": "Application\\Services\\FuncionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:28:49.009Z",
+              "WhenOpened": "2024-08-16T17:53:06.037Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 225,
-          "SelectedChildIndex": -1,
-          "Children": [
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Program.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeToolTip": "MovieApi\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T22:06:42.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPeliculaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IPeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPeliculaRepository.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IPeliculaRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPeliculaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T19:53:56.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeliculaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\PeliculaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\PeliculaRepository.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\PeliculaRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\PeliculaRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T19:51:51.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DirectorDto.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\DirectorDto.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
+              "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:45:23.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T20:42:50.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:39:46.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PeliculaDto.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
+              "RelativeToolTip": "Application\\Models\\PeliculaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:46:14.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FuncionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionRequest.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\FuncionRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:42:11.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Pelicula.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Pelicula.cs",
+              "RelativeToolTip": "Domain\\Entities\\Pelicula.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:33:16.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FuncionUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:59:19.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Funcion.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Funcion.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Funcion.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Funcion.cs",
+              "RelativeToolTip": "Domain\\Entities\\Funcion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:37:09.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IFuncionService.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IFuncionService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IFuncionService.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IFuncionService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IFuncionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:57:03.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FuncionController.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\FuncionController.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Controllers\\FuncionController.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\FuncionController.cs",
+              "RelativeToolTip": "MovieApi\\Controllers\\FuncionController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwEAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T18:39:50.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FuncionDto.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\FuncionDto.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
+              "RelativeToolTip": "Application\\Models\\FuncionDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:42:29.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Director.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Director.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Director.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Entities\\Director.cs",
+              "RelativeToolTip": "Domain\\Entities\\Director.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:35:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrigenPelicula.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Enums\\OrigenPelicula.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\OrigenPelicula.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Enums\\OrigenPelicula.cs",
+              "RelativeToolTip": "Domain\\Enums\\OrigenPelicula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:55:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240809223805_Second-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240809223805_Second-Migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240809223805_Second-Migration.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240809223805_Second-Migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240809223805_Second-Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T22:38:05.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T01:08:20.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MovieApi.csproj",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
+              "RelativeDocumentMoniker": "MovieApi\\MovieApi.csproj",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
+              "RelativeToolTip": "MovieApi\\MovieApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T01:10:34.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\appsettings.json",
+              "RelativeToolTip": "MovieApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T22:07:22.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T01:09:05.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240809223324_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240809223324_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240809223324_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240809223324_InitialMigration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240809223324_InitialMigration.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T22:33:24.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T01:07:45.763Z"
             }
           ]
         }

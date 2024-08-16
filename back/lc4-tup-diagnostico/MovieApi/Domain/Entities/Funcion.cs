@@ -14,10 +14,9 @@ namespace Domain.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdFuncion { get; set; }  
 
-        public DateTime Fecha { get; set; }
-        public DateTime Hora { get; set; }
+        public DateOnly Fecha { get; set; }
+        public TimeOnly Hora { get; set; }
         public float Precio { get; set; }
-
         
         public int PeliculaId { get; set; }
 
