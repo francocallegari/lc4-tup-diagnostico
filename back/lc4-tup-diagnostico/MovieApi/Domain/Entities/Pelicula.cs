@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Enums;
 
 namespace Domain.Entities
 {
@@ -14,12 +15,10 @@ namespace Domain.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdPelicula {  get; set; }    
         public string NombrePelicula { get; set; }
-        public string OrigenPelicula {  get; set; }
+        public OrigenPelicula OrigenPelicula {  get; set; }
+        public int DirectorPeliculaId { get; set; }
 
-        
-        public int DirectorPelicula { get; set; }
-
-        [ForeignKey("DirectorPelicula")]
+        [ForeignKey("DirectorPeliculaId")]
         public Director Director { get; set; }
 
     }

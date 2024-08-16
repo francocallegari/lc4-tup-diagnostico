@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cfVww5k7yRJiOG/MG6YBbqCXgHssctOyfRHq3Kuk2/aq+taIB9EXCK9J1kR9EVygCBCWVyedx1+sxLjSbkjMw==",
+  "dgSpecHash": "qRe5/ssbH3/MD9E9JDYaC2DZxLyKEtgiZVxRGiwPcBEtgQsVtvkRgDsSeEtNQkJlcZ771IaaB+Oy3LJdp51tSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
