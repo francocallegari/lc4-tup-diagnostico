@@ -60,9 +60,9 @@ namespace Application.Services
             var funcion = _funcionRepository.GetFuncionById(id)
                 ?? throw new Exception("Funcion no encontrada");
 
-            funcion.Fecha = funcionRequest.Fecha ?? funcion.Fecha;
-            funcion.Precio = funcionRequest.Precio ?? funcion.Precio;
-            funcion.Hora = funcionRequest.Hora ?? funcion.Hora;
+            funcion.Fecha = DateOnly.FromDateTime(funcionRequest.Date);
+            funcion.Hora = TimeOnly.FromDateTime(funcionRequest.Date);
+            funcion.Precio = funcionRequest.Precio;
             if (funcionRequest.PeliculaId != null)
             {
                 var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
@@ -77,7 +77,6 @@ namespace Application.Services
             }
 
             _funcionRepository.Update(funcion);
-
         }
 
         public void Delete(int id)
