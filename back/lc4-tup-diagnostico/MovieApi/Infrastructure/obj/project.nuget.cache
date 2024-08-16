@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ImwBXu/YTiY=",
+  "dgSpecHash": "aGAxBliGR9gyz66RQXlcMGO/XnGdbjKbjFTYvsLnmHiWgY74E0lPTny70VSCHiRJGvQs6vMZXVHwZczwQW552g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\diagnosticoLab\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
