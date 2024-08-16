@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj": {}
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\obj\\",
+        "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\anabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj"
+              "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\anabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,21 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\anabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +152,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
+              "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
               }
             }
           }
@@ -200,21 +200,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj": {
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
+        "projectUniqueName": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
         "projectName": "MovieApi",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\obj\\",
+        "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\MovieApi.csproj",
+        "packagesPath": "C:\\Users\\anabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,11 +228,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
+              "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Application.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Delfi\\Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -282,7 +282,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
