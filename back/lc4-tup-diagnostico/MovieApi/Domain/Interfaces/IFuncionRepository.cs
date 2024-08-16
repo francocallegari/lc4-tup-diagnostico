@@ -10,5 +10,6 @@ namespace Domain.Interfaces
     public interface IFuncionRepository : IRepositoryBase<Funcion>
     {
         List<Funcion> GetFunciones();
+        Funcion GetFuncionById(int id);
     }
 }
