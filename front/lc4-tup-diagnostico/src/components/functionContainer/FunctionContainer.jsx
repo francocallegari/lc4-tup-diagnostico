@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import UseFetch from '../../hooks/useFetch/UseFetch'; 
 import FunctionList from '../functionList/FunctionList';
 import Button from 'react-bootstrap/Button';
-import FunctionModal from '../functionModal/FunctionModal'; // Componente del modal
+import FunctionModal from '../functionModal/FunctionModal';
 
 const FunctionContainer = () => {
   const [showModal, setShowModal] = useState(false);

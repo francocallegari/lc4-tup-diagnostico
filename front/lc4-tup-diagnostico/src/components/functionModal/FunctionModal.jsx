@@ -117,10 +117,10 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>
-          Close
+          Cerrar
         </Button>
         <Button variant="primary" onClick={handleSubmit}>
-          Add Function
+          Agregar funcion
         </Button>
       </Modal.Footer>
     </Modal>
