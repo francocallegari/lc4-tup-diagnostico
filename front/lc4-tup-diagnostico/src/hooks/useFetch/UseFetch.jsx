@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const useFetch = (url, method = 'GET', body = null) => {
+const UseFetch = (url, options = {}) => {
+  const { method = 'GET', body = null, headers = { 'Content-Type': 'application/json' } } = options;
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -10,16 +11,13 @@ const useFetch = (url, method = 'GET', body = null) => {
       try {
         const response = await fetch(url, {
           method,
-          headers: {
-            'Content-Type': 'application/json',
-          },
+          headers,
           body: body ? JSON.stringify(body) : null,
         });
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
         const result = await response.json();
-        console.log(result)
         setData(result);
       } catch (error) {
         setError(error.message);
@@ -29,10 +27,10 @@ const useFetch = (url, method = 'GET', body = null) => {
     };
 
     fetchData();
-  }, [url, method, body]);
+  }, [url, method, body, headers]);
 
   return { data, loading, error };
 };
 
-export default useFetch;
+export default UseFetch;
 

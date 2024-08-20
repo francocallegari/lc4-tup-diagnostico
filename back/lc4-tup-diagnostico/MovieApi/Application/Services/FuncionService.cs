@@ -5,9 +5,6 @@ using Domain.Entities;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
 {
@@ -16,6 +13,7 @@ namespace Application.Services
         private readonly IFuncionRepository _funcionRepository;
         private readonly IPeliculaRepository _peliculaRepository;
         private readonly IRepositoryBase<Director> _directorRepository;
+
         public FuncionService(IFuncionRepository funcionRepository, IPeliculaRepository peliculaRepository, IRepositoryBase<Director> directorRepository)
         {
             _funcionRepository = funcionRepository;
@@ -26,14 +24,13 @@ namespace Application.Services
         public List<FuncionDto> GetAll()
         {
             var funciones = _funcionRepository.GetFunciones();
-
             return FuncionDto.CreateList(funciones);
         }
 
         public FuncionDto GetById(int id)
         {
             var funcion = _funcionRepository.GetFuncionById(id)
-                ?? throw new Exception("Funcion no encontrada");
+                ?? throw new Exception("Función no encontrada");
 
             return FuncionDto.Create(funcion);
         }
@@ -41,39 +38,37 @@ namespace Application.Services
         public FuncionDto Create(FuncionRequest funcionRequest)
         {
             var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
-                ?? throw new Exception("Pelicula no encontrada");
-            
-            var funcionNueva = new Funcion();
-            funcionNueva.Fecha = new DateOnly(funcionRequest.Year, funcionRequest.Month, funcionRequest.Day);
-            funcionNueva.Precio = funcionRequest.Precio;
-            funcionNueva.Hora = new TimeOnly(funcionRequest.Hours, funcionRequest.Minutes);
-            funcionNueva.PeliculaId = funcionRequest.PeliculaId;
-            funcionNueva.Pelicula = pelicula;
+                ?? throw new Exception("Película no encontrada");
+
+            var funcionNueva = new Funcion
+            {
+                Fecha = new DateOnly(funcionRequest.Year, funcionRequest.Month, funcionRequest.Day),
+                Precio = funcionRequest.Precio,
+                Hora = new TimeOnly(funcionRequest.Hours, funcionRequest.Minutes),
+                PeliculaId = funcionRequest.PeliculaId,
+                Pelicula = pelicula
+            };
 
             var funcion = _funcionRepository.Add(funcionNueva);
-
             return FuncionDto.Create(funcion);
         }
 
         public void Update(FuncionUpdateRequest funcionRequest, int id)
         {
             var funcion = _funcionRepository.GetFuncionById(id)
-                ?? throw new Exception("Funcion no encontrada");
+                ?? throw new Exception("Función no encontrada");
 
             funcion.Fecha = DateOnly.FromDateTime(funcionRequest.Date);
             funcion.Hora = TimeOnly.FromDateTime(funcionRequest.Date);
             funcion.Precio = funcionRequest.Precio;
-            if (funcionRequest.PeliculaId != null)
-            {
-                var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
-                ?? throw new Exception("Pelicula no encontrada");
 
-                funcion.PeliculaId = (int)funcionRequest.PeliculaId;
-                funcion.Pelicula = pelicula;
-            } else
+            if (funcionRequest.PeliculaId.HasValue)
             {
-                funcion.Pelicula = funcion.Pelicula;
-                funcion.PeliculaId = funcion.PeliculaId;
+                var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId.Value)
+                    ?? throw new Exception("Película no encontrada");
+
+                funcion.PeliculaId = funcionRequest.PeliculaId.Value;
+                funcion.Pelicula = pelicula;
             }
 
             _funcionRepository.Update(funcion);
@@ -82,7 +77,7 @@ namespace Application.Services
         public void Delete(int id)
         {
             var funcion = _funcionRepository.GetFuncionById(id)
-                ?? throw new Exception("Funcion no encontrada");
+                ?? throw new Exception("Función no encontrada");
 
             _funcionRepository.Delete(funcion);
         }

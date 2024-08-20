@@ -13,20 +13,27 @@ namespace Application.Models
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public OrigenPelicula Origen {  get; set; }
+        public OrigenPelicula Origen { get; set; }
         public int DirectorPeliculaId { get; set; }
         public DirectorDto Director { get; set; }
 
         public static PeliculaDto Create(Pelicula pelicula)
         {
-            var dto = new PeliculaDto();
-            dto.Id = pelicula.IdPelicula;
-            dto.Nombre = pelicula.NombrePelicula;
-            dto.Origen = pelicula.OrigenPelicula;
-            dto.DirectorPeliculaId = pelicula.DirectorPeliculaId;
-            dto.Director = DirectorDto.Create(pelicula.Director);
 
-            return dto;
+            return new PeliculaDto
+            {
+                Id = pelicula.IdPelicula,
+                Nombre = pelicula.NombrePelicula,
+                Origen = pelicula.OrigenPelicula,
+                DirectorPeliculaId = pelicula.DirectorPeliculaId,
+                Director = pelicula.Director != null ? DirectorDto.Create(pelicula.Director) : null
+            };
+        }
+
+
+        public static List<PeliculaDto> CreateList(IEnumerable<Pelicula> peliculas)
+        {
+            return peliculas.Select(Create).ToList();
         }
     }
 }

@@ -6,7 +6,7 @@ import FunctionContainer from './components/functionContainer/FunctionContainer'
 const App = () => {
   return (
     <div>
-      <h1>Function Management</h1>
+      <h1>MiCine App</h1>
       <FunctionContainer />
     </div>
   );

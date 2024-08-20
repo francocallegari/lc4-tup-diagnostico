@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -29,7 +28,7 @@ builder.Services.AddCors(options =>
 #region Database
 string connectionString = builder.Configuration["ConnectionStrings:DBConnectionString"];
 
-// configurar la conexion sqlite
+// Configurar la conexion sqlite
 var connection = new SqliteConnection(connectionString);
 connection.Open();
 
@@ -52,6 +51,7 @@ builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 
 // Services
 builder.Services.AddScoped<IFuncionService, FuncionService>();
+builder.Services.AddScoped<IPeliculaService, PeliculaService>(); // Agregar el servicio de Pelicula
 
 var app = builder.Build();
 
