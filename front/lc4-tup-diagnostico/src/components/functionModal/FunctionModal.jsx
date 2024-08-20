@@ -45,7 +45,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
       <Modal.Body>
         <Form>
           <Form.Group>
-            <Form.Label>Year</Form.Label>
+            <Form.Label>Año</Form.Label>
             <Form.Control 
               type="number" 
               value={year} 
@@ -54,7 +54,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label>Month</Form.Label>
+            <Form.Label>Mes</Form.Label>
             <Form.Control 
               type="number" 
               value={month} 
@@ -63,7 +63,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label>Day</Form.Label>
+            <Form.Label>Día</Form.Label>
             <Form.Control 
               type="number" 
               value={day} 
@@ -72,7 +72,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label>Hours</Form.Label>
+            <Form.Label>Hora</Form.Label>
             <Form.Control 
               type="number" 
               value={hours} 
@@ -81,7 +81,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label>Minutes</Form.Label>
+            <Form.Label>Minuto</Form.Label>
             <Form.Control 
               type="number" 
               value={minutes} 
