@@ -1,18 +1,26 @@
-import React, { useState } from 'react';
-import { Modal, Button, Form } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Modal, Button, Form } from "react-bootstrap";
 
 const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
-  const [year, setYear] = useState('');
-  const [month, setMonth] = useState('');
-  const [day, setDay] = useState('');
-  const [hours, setHours] = useState('');
-  const [minutes, setMinutes] = useState('');
-  const [precio, setPrecio] = useState('');
-  const [peliculaId, setPeliculaId] = useState('');
+  const [year, setYear] = useState("");
+  const [month, setMonth] = useState("");
+  const [day, setDay] = useState("");
+  const [hours, setHours] = useState("");
+  const [minutes, setMinutes] = useState("");
+  const [precio, setPrecio] = useState("");
+  const [peliculaId, setPeliculaId] = useState("");
 
   const handleSubmit = () => {
-    if (!year || !month || !day || !hours || !minutes || !precio || !peliculaId) {
-      alert('Por favor complete todos los campos');
+    if (
+      !year ||
+      !month ||
+      !day ||
+      !hours ||
+      !minutes ||
+      !precio ||
+      !peliculaId
+    ) {
+      alert("Por favor complete todos los campos");
       return;
     }
 
@@ -28,13 +36,13 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
 
     onSubmit(newFunction);
 
-    setYear('');
-    setMonth('');
-    setDay('');
-    setHours('');
-    setMinutes('');
-    setPrecio('');
-    setPeliculaId('');
+    setYear("");
+    setMonth("");
+    setDay("");
+    setHours("");
+    setMinutes("");
+    setPrecio("");
+    setPeliculaId("");
   };
 
   return (
@@ -46,71 +54,72 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
         <Form>
           <Form.Group>
             <Form.Label>Año</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={year} 
-              onChange={(e) => setYear(e.target.value)} 
-              placeholder="Ingrese el año" 
+            <Form.Control
+              type="number"
+              value={year}
+              onChange={(e) => setYear(e.target.value)}
+              placeholder="Ingrese el año"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Mes</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={month} 
-              onChange={(e) => setMonth(e.target.value)} 
-              placeholder="Ingrese el mes" 
+            <Form.Control
+              type="number"
+              value={month}
+              onChange={(e) => setMonth(e.target.value)}
+              placeholder="Ingrese el mes"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Día</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={day} 
-              onChange={(e) => setDay(e.target.value)} 
-              placeholder="Ingrese el dia" 
+            <Form.Control
+              type="number"
+              value={day}
+              onChange={(e) => setDay(e.target.value)}
+              placeholder="Ingrese el dia"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Hora</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={hours} 
-              onChange={(e) => setHours(e.target.value)} 
-              placeholder="Ingrese la hora" 
+            <Form.Control
+              type="number"
+              value={hours}
+              onChange={(e) => setHours(e.target.value)}
+              placeholder="Ingrese la hora"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Minuto</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={minutes} 
-              onChange={(e) => setMinutes(e.target.value)} 
-              placeholder="Ingrese los minutos" 
+            <Form.Control
+              type="number"
+              value={minutes}
+              onChange={(e) => setMinutes(e.target.value)}
+              placeholder="Ingrese los minutos"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Precio</Form.Label>
-            <Form.Control 
-              type="number" 
-              value={precio} 
-              onChange={(e) => setPrecio(e.target.value)} 
-              placeholder="Precio" 
+            <Form.Control
+              type="number"
+              value={precio}
+              onChange={(e) => setPrecio(e.target.value)}
+              placeholder="Precio"
             />
           </Form.Group>
           <Form.Group>
             <Form.Label>Pelicula</Form.Label>
-            <Form.Control 
-              as="select" 
-              value={peliculaId} 
+            <Form.Control
+              as="select"
+              value={peliculaId}
               onChange={(e) => setPeliculaId(e.target.value)}
             >
               <option value="">Seleccione la película a agregar</option>
-              {peliculas && peliculas.map((pelicula) => (
-                <option key={pelicula.id} value={pelicula.id}>
-                  {pelicula.nombre}
-                </option>
-              ))}
+              {peliculas &&
+                peliculas.map((pelicula) => (
+                  <option key={pelicula.id} value={pelicula.id}>
+                    {pelicula.nombre}
+                  </option>
+                ))}
             </Form.Control>
           </Form.Group>
         </Form>

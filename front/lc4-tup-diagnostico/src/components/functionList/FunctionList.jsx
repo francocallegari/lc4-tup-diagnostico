@@ -1,7 +1,8 @@
-import React from 'react';
-import Table from 'react-bootstrap/Table';
+import React from "react";
+import Table from "react-bootstrap/Table";
+import Button from "react-bootstrap/Button";
 
-const FunctionList = ({ functions }) => {
+const FunctionList = ({ functions, onDelete, onEdit }) => {
   if (functions.length === 0) {
     return <p>No functions found.</p>;
   }
@@ -19,7 +20,7 @@ const FunctionList = ({ functions }) => {
         </tr>
       </thead>
       <tbody>
-        {functions.map(func => (
+        {functions.map((func) => (
           <tr key={func.id}>
             <td>{func.id}</td>
             <td>{func.fecha}</td>
@@ -27,10 +28,16 @@ const FunctionList = ({ functions }) => {
             <td>{func.pelicula.nombre}</td>
             <td>{func.pelicula.director.nombre}</td>
             <td>{func.precio}</td>
-            {/* <td>
-              <Button variant="warning" onClick={() => onEdit(func)}>Edit</Button>
-              <Button variant="danger" onClick={() => onDelete(func.id)}>Delete</Button>
-            </td> */}
+            {
+              <td>
+                <Button variant="warning" onClick={() => onEdit(func)}>
+                  Edit
+                </Button>
+                <Button variant="danger" onClick={() => onDelete(func.id)}>
+                  Delete
+                </Button>
+              </td>
+            }
           </tr>
         ))}
       </tbody>
@@ -39,4 +46,3 @@ const FunctionList = ({ functions }) => {
 };
 
 export default FunctionList;
-
