@@ -20,7 +20,7 @@ const EditFunctionModal = ({
       if (fecha) {
         const date = new Date(fecha);
         const formattedDate = date.toISOString().split("T")[0];
-        console.log("Fecha formateada en useEffect:", formattedDate);
+        console.log("Fecha:", formattedDate);
         setFecha(formattedDate);
       }
       
@@ -47,7 +47,6 @@ const EditFunctionModal = ({
   
     onHide();
   
-    // Reiniciar los estados
     setFecha("");
     setPrecio("");
     setPeliculaId("");
