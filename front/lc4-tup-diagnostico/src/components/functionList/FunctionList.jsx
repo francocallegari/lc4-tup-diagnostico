@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 const FunctionList = ({ functions, onDelete, onEdit }) => {
   if (functions.length === 0) {
-    return <p>No functions found.</p>;
+    return <p>No se encontraron funciones.</p>;
   }
 
   return (

@@ -15,7 +15,15 @@ const EditFunctionModal = ({
   useEffect(() => {
     if (functionToEdit) {
       const { fecha, precio, peliculaId } = functionToEdit;
-      setFecha(fecha);
+
+      // Verifica y formatea la fecha
+      if (fecha) {
+        const date = new Date(fecha);
+        const formattedDate = date.toISOString().split("T")[0];
+        console.log("Fecha formateada en useEffect:", formattedDate);
+        setFecha(formattedDate);
+      }
+      
       setPrecio(precio);
       setPeliculaId(peliculaId);
     }
@@ -26,15 +34,20 @@ const EditFunctionModal = ({
       alert("Por favor complete todos los campos");
       return;
     }
-
+  
     const updatedFunction = {
-      Fecha: fecha,
+      Fecha: fecha, 
       Precio: parseFloat(precio),
       PeliculaId: parseInt(peliculaId, 10),
     };
-
+  
+    console.log("Función actualizada:", updatedFunction);
+  
     onSubmit(updatedFunction);
-
+  
+    onHide();
+  
+    // Reiniciar los estados
     setFecha("");
     setPrecio("");
     setPeliculaId("");

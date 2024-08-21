@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import UseFetch from "../../hooks/useFetch/UseFetch";
-import FunctionList from "../functionList/FunctionList";
 import Button from "react-bootstrap/Button";
+import FunctionList from "../functionList/FunctionList";
 import FunctionModal from "../functionModal/FunctionModal";
 import EditFunctionModal from "../functionModal/EditFunctionModal";
 
@@ -11,7 +10,6 @@ const FunctionContainer = () => {
   const [peliculas, setPeliculas] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
   const [showEditModal, setShowEditModal] = useState(false);
   const [functionToEdit, setFunctionToEdit] = useState(null);
 
@@ -62,7 +60,6 @@ const FunctionContainer = () => {
     }
   };
 
-  //delete
   const handleDeleteFunction = async (id) => {
     try {
       const response = await fetch(`https://localhost:7062/api/Funcion/${id}`, {
@@ -81,7 +78,6 @@ const FunctionContainer = () => {
     }
   };
 
-  //edit
   const handleEditFunction = async (updatedFunction) => {
     try {
       const response = await fetch(
@@ -94,11 +90,11 @@ const FunctionContainer = () => {
           body: JSON.stringify(updatedFunction),
         }
       );
-
+  
       if (!response.ok) {
         throw new Error("Failed to update function");
       }
-
+  
       const editedFunction = await response.json();
       setFunctions((prevFunctions) =>
         prevFunctions.map((func) =>
@@ -106,8 +102,10 @@ const FunctionContainer = () => {
         )
       );
       setShowEditModal(false);
+  
+      window.location.reload();
     } catch (err) {
-      setError("Failed to update function");
+      setError("Error al actualizar la función");
     }
   };
 
@@ -139,7 +137,10 @@ const FunctionContainer = () => {
       {functionToEdit && (
         <EditFunctionModal
           show={showEditModal}
-          onHide={() => setShowEditModal(false)}
+          onHide={() => {
+            setShowEditModal(false);
+            setFunctionToEdit(null);
+          }}
           onSubmit={handleEditFunction}
           functionToEdit={functionToEdit}
           peliculas={peliculas}
@@ -150,3 +151,4 @@ const FunctionContainer = () => {
 };
 
 export default FunctionContainer;
+

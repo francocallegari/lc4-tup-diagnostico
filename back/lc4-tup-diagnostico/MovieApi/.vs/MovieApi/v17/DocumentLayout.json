@@ -58,15 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -78,8 +74,7 @@
               "RelativeToolTip": "MovieApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:55:12.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T22:55:12.918Z"
             },
             {
               "$type": "Document",
@@ -91,8 +86,7 @@
               "RelativeToolTip": "Application\\Interfaces\\IPeliculaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:52:03.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T22:52:03.207Z"
             },
             {
               "$type": "Document",
@@ -104,8 +98,7 @@
               "RelativeToolTip": "MovieApi\\Controllers\\PeliculaController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:49:31.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T22:49:31.413Z"
             },
             {
               "$type": "Document",
@@ -117,8 +110,7 @@
               "RelativeToolTip": "Application\\Models\\FuncionDto.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAcwCQAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:44:33.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T22:44:33.14Z"
             },
             {
               "$type": "Document",
@@ -130,8 +122,7 @@
               "RelativeToolTip": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T22:27:07.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T22:27:07.515Z"
             },
             {
               "$type": "Document",
@@ -143,8 +134,7 @@
               "RelativeToolTip": "Application\\Services\\FuncionService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowDcAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T21:32:54.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T21:32:54.565Z"
             },
             {
               "$type": "Document",
@@ -154,7 +144,7 @@
               "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
               "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
               "RelativeToolTip": "Application\\Models\\PeliculaDto.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA4wBcAAAANAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T01:57:02.17Z",
               "EditorCaption": ""
@@ -169,8 +159,7 @@
               "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:56:19.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T01:56:19.295Z"
             },
             {
               "$type": "Document",
@@ -182,8 +171,7 @@
               "RelativeToolTip": "Application\\Services\\PeliculaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:52:23.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T22:52:23.896Z"
             },
             {
               "$type": "Document",
@@ -195,8 +183,7 @@
               "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:39:34.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T01:39:34.711Z"
             },
             {
               "$type": "Document",
@@ -208,8 +195,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:30:06.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T01:30:06.432Z"
             },
             {
               "$type": "Document",
@@ -221,8 +207,11 @@
               "RelativeToolTip": "Infrastructure\\Data\\RepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:28:49.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T01:28:49.009Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
