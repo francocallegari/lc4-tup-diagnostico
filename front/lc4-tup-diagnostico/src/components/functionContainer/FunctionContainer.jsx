@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import FunctionList from "../functionList/FunctionList";
 import FunctionModal from "../functionModal/FunctionModal";
-import EditFunctionModal from "../functionModal/EditFunctionModal";
+import EditFunctionModal from "../editFunctionModal/EditFunctionModal";
 
 const FunctionContainer = () => {
   const [showModal, setShowModal] = useState(false);

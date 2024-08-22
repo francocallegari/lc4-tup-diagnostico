@@ -8,50 +8,48 @@ const EditFunctionModal = ({
   functionToEdit,
   peliculas,
 }) => {
-  const [fechaHora, setFechaHora] = useState("");
+  const [fecha, setFecha] = useState("");
   const [precio, setPrecio] = useState("");
   const [peliculaId, setPeliculaId] = useState("");
 
   useEffect(() => {
     if (functionToEdit) {
-      const { date, precio, peliculaId } = functionToEdit;
+      const { fecha, precio, peliculaId } = functionToEdit;
 
-      //Verifica y formatea la fecha
-      if (date) {
-        const dateObject = new Date(date);
-        const formattedDateTime = dateObject.toISOString().slice(0, 16); //Formato para datetime-local
-        setFechaHora(formattedDateTime);
+      // Verifica y formatea la fecha
+      if (fecha) {
+        const date = new Date(fecha);
+        const formattedDate = date.toISOString().split("T")[0];
+        console.log("Fecha:", formattedDate);
+        setFecha(formattedDate);
       }
-
+      
       setPrecio(precio);
       setPeliculaId(peliculaId);
     }
   }, [functionToEdit]);
 
   const handleSubmit = () => {
-    if (!fechaHora || !precio || !peliculaId) {
+    if (!fecha || !precio || !peliculaId) {
       alert("Por favor complete todos los campos");
       return;
     }
-
+  
     const updatedFunction = {
-      date: fechaHora + ":00.000Z", 
+      Fecha: fecha, 
       Precio: parseFloat(precio),
       PeliculaId: parseInt(peliculaId, 10),
     };
-    
-    
+  
     console.log("Función actualizada:", updatedFunction);
-    
+  
     onSubmit(updatedFunction);
-    
+  
     onHide();
-    
-    setFechaHora("");
+  
+    setFecha("");
     setPrecio("");
     setPeliculaId("");
-
-    window.location.reload();
   };
 
   return (
@@ -62,12 +60,12 @@ const EditFunctionModal = ({
       <Modal.Body>
         <Form>
           <Form.Group>
-            <Form.Label>Fecha y Hora</Form.Label>
+            <Form.Label>Fecha</Form.Label>
             <Form.Control
-              type="datetime-local"
-              value={fechaHora}
-              onChange={(e) => setFechaHora(e.target.value)}
-              placeholder="Ingrese la fecha y hora"
+              type="date"
+              value={fecha}
+              onChange={(e) => setFecha(e.target.value)}
+              placeholder="Ingrese la fecha"
             />
           </Form.Group>
           <Form.Group>
