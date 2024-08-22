@@ -78,7 +78,8 @@
               "RelativeToolTip": "MovieApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:55:12.918Z"
+              "WhenOpened": "2024-08-20T22:55:12.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,7 +91,8 @@
               "RelativeToolTip": "Application\\Interfaces\\IPeliculaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:52:03.207Z"
+              "WhenOpened": "2024-08-20T22:52:03.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -102,7 +104,8 @@
               "RelativeToolTip": "MovieApi\\Controllers\\PeliculaController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:49:31.413Z"
+              "WhenOpened": "2024-08-20T22:49:31.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,7 +117,8 @@
               "RelativeToolTip": "Application\\Models\\FuncionDto.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAcwCQAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:44:33.14Z"
+              "WhenOpened": "2024-08-20T22:44:33.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,7 +130,8 @@
               "RelativeToolTip": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T22:27:07.515Z"
+              "WhenOpened": "2024-08-16T22:27:07.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,7 +143,8 @@
               "RelativeToolTip": "Application\\Services\\FuncionService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowDcAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T21:32:54.565Z"
+              "WhenOpened": "2024-08-16T21:32:54.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -148,7 +154,7 @@
               "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
               "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
               "RelativeToolTip": "Application\\Models\\PeliculaDto.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwBcAAAANAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T01:57:02.17Z",
               "EditorCaption": ""
@@ -163,7 +169,8 @@
               "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:56:19.295Z"
+              "WhenOpened": "2024-08-16T01:56:19.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -175,7 +182,8 @@
               "RelativeToolTip": "Application\\Services\\PeliculaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:52:23.896Z"
+              "WhenOpened": "2024-08-20T22:52:23.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -187,7 +195,8 @@
               "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:39:34.711Z"
+              "WhenOpened": "2024-08-16T01:39:34.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,7 +208,8 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:30:06.432Z"
+              "WhenOpened": "2024-08-16T01:30:06.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +221,8 @@
               "RelativeToolTip": "Infrastructure\\Data\\RepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:28:49.009Z"
+              "WhenOpened": "2024-08-16T01:28:49.009Z",
+              "EditorCaption": ""
             }
           ]
         }
