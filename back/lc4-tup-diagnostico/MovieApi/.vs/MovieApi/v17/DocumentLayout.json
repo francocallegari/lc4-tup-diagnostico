@@ -58,11 +58,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -144,7 +148,7 @@
               "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
               "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
               "RelativeToolTip": "Application\\Models\\PeliculaDto.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA0wBcAAAANAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T01:57:02.17Z",
               "EditorCaption": ""
@@ -208,10 +212,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T01:28:49.009Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
