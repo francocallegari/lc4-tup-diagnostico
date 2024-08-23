@@ -51,7 +51,7 @@ builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 
 // Services
 builder.Services.AddScoped<IFuncionService, FuncionService>();
-builder.Services.AddScoped<IPeliculaService, PeliculaService>(); // Agregar el servicio de Pelicula
+builder.Services.AddScoped<IPeliculaService, PeliculaService>();
 
 var app = builder.Build();
 

@@ -2,6 +2,7 @@
 using Application.Models;
 using Application.Models.Request;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -39,11 +40,15 @@ namespace Application.Services
         {
             var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
                 ?? throw new Exception("Película no encontrada");
-            var peliculasInternacionales = _funcionRepository.FuncionesWithInternationalMovies();
 
-            if (peliculasInternacionales.Count == 8)
+            // Validacion del límite de funciones para peliculas internacionales
+            if (pelicula.OrigenPelicula == OrigenPelicula.Internacional)
             {
-                throw new Exception("Límite de funciones de películas internacionales alcanzado (Máximo 8)");
+                var peliculasInternacionales = _funcionRepository.FuncionesWithInternationalMovies();
+                if (peliculasInternacionales.Count >= 8)
+                {
+                    throw new Exception("Límite de funciones de películas internacionales alcanzado (Máximo 8)");
+                }
             }
 
             var funcionNueva = new Funcion
@@ -55,12 +60,14 @@ namespace Application.Services
                 Pelicula = pelicula
             };
 
+            // Validacion del límite de funciones por director en un dia
             var directorFunciones = _funcionRepository.GetFuncionesByDirectorDate(pelicula.DirectorPeliculaId, funcionNueva.Fecha);
-            if (directorFunciones.Count == 10)
+            if (directorFunciones.Count >= 10)
             {
                 throw new Exception($"Límite de funciones del director {pelicula.Director.Nombre} alcanzado (Máximo 10 por día)");
             }
 
+            // Validacion de funcion duplicada (misma película, fecha, y hora)
             var existingFuncion = _funcionRepository.GetFuncionByMovieDate(funcionNueva.Fecha, funcionNueva.Hora, pelicula.IdPelicula);
             if (existingFuncion != null)
             {

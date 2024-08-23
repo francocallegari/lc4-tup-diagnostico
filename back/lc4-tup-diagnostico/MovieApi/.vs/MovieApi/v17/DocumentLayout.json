@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240823212629_addedFilms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240823212629_addedFilms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\interfaces\\ifuncionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ifuncionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\funcionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +25,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\funciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\funciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\request\\funcionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240823212629_addedFilms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240823212629_addedFilms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipeliculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B8ECB66-F2D6-4F4E-B1D9-FCAC4B6DDB36}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65CBEEA0-B1F9-4982-BA78-1BF024971BF7}|Application\\Application.csproj|solutionrelative:application\\models\\directordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A12359E-B72B-416B-872F-4432663CEC32}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB5F125A-8349-4892-ACAA-AB3B6EF76C93}|Infrastructure\\Infrastructure.csproj|d:\\tup\\4to cuatrimestre\\laboratorio de computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\movieapi\\infrastructure\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,19 +78,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FuncionService.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\FuncionService.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
+              "RelativeToolTip": "Application\\Services\\FuncionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:32:54.565Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "20240823212629_addedFilms.cs",
               "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Migrations\\20240823212629_addedFilms.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240823212629_addedFilms.cs",
@@ -102,12 +108,136 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FuncionRequest.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionRequest.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\FuncionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T19:05:27.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "FuncionRepository.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\FuncionRepository.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\FuncionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T18:38:25.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuncionDto.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\FuncionDto.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
+              "RelativeToolTip": "Application\\Models\\FuncionDto.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wCQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T22:44:33.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectorDto.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\DirectorDto.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
+              "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:56:19.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FuncionUpdateRequest.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:27:07.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\EfRepository.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:39:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Program.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
+              "RelativeToolTip": "MovieApi\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T22:55:12.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFuncionRepository.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IFuncionRepository.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IFuncionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T18:38:48.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PeliculaController.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\PeliculaController.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Controllers\\PeliculaController.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\PeliculaController.cs",
+              "RelativeToolTip": "MovieApi\\Controllers\\PeliculaController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T22:49:31.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPeliculaService.cs",
+              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IPeliculaService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPeliculaService.cs",
+              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IPeliculaService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPeliculaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T22:52:03.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationContext.cs",
@@ -120,116 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuncionRequest.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionRequest.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionRequest.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\FuncionRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T19:05:27.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IFuncionRepository.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IFuncionRepository.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IFuncionRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IFuncionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T18:38:48.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FuncionRepository.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\FuncionRepository.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\FuncionRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\FuncionRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCYAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T18:38:25.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
-              "RelativeDocumentMoniker": "MovieApi\\Program.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Program.cs",
-              "RelativeToolTip": "MovieApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:55:12.918Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "IPeliculaService.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IPeliculaService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IPeliculaService.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Interfaces\\IPeliculaService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IPeliculaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:52:03.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PeliculaController.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\PeliculaController.cs",
-              "RelativeDocumentMoniker": "MovieApi\\Controllers\\PeliculaController.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\MovieApi\\Controllers\\PeliculaController.cs",
-              "RelativeToolTip": "MovieApi\\Controllers\\PeliculaController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:49:31.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FuncionDto.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\FuncionDto.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\FuncionDto.cs",
-              "RelativeToolTip": "Application\\Models\\FuncionDto.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwCQAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:44:33.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FuncionUpdateRequest.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\Request\\FuncionUpdateRequest.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\FuncionUpdateRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T22:27:07.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuncionService.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\FuncionService.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\FuncionService.cs",
-              "RelativeToolTip": "Application\\Services\\FuncionService.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAQwCwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T21:32:54.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "PeliculaDto.cs",
               "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\PeliculaDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\PeliculaDto.cs",
@@ -242,18 +263,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DirectorDto.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\DirectorDto.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Models\\DirectorDto.cs",
-              "RelativeToolTip": "Application\\Models\\DirectorDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:56:19.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "PeliculaService.cs",
               "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Application\\Services\\PeliculaService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PeliculaService.cs",
@@ -266,18 +275,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "EfRepository.cs",
-              "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\EfRepository.cs",
-              "ToolTip": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Infrastructure\\Data\\EfRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\EfRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T01:39:34.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
