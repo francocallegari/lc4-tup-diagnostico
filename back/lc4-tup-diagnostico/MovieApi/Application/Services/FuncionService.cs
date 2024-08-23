@@ -48,9 +48,9 @@ namespace Application.Services
 
             var funcionNueva = new Funcion
             {
-                Fecha = new DateOnly(funcionRequest.Year, funcionRequest.Month, funcionRequest.Day),
+                Fecha = DateOnly.FromDateTime(funcionRequest.Fecha),
+                Hora = TimeOnly.FromDateTime(funcionRequest.Fecha),
                 Precio = funcionRequest.Precio,
-                Hora = new TimeOnly(funcionRequest.Hours, funcionRequest.Minutes),
                 PeliculaId = funcionRequest.PeliculaId,
                 Pelicula = pelicula
             };

@@ -7,15 +7,7 @@ namespace Application.Models.Request
     public class FuncionRequest
     {
         [Required]
-        public int Year { get; set; }
-        [Required]
-        public int Month { get; set; }
-        [Required]
-        public int Day { get; set; }
-        [Required]
-        public int Hours { get; set; }
-        [Required]
-        public int Minutes { get; set; }
+        public DateTime Fecha { get; set; }
         [Required]
         public float Precio { get; set; }
         [Required]
