@@ -10,7 +10,7 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
 
   return (
     <div className="table-container">
-      <Table striped bordered hover>
+      <Table striped bordered hover variant="dark">
         <thead>
           <tr>
             <th>ID</th>
