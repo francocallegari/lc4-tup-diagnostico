@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Infrastructure
-build_property.ProjectDir = D:\TUP\4to cuatrimestre\Laboratorio de Computacion 4\lc4-tup-diagnostico\back\lc4-tup-diagnostico\MovieApi\Infrastructure\
+build_property.ProjectDir = C:\Users\anabe\OneDrive\Documentos\TP-Diagnostico\lc4-tup-diagnostico\back\lc4-tup-diagnostico\MovieApi\Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
