@@ -86,6 +86,14 @@ namespace Application.Services
             funcion.Fecha = DateOnly.FromDateTime(funcionRequest.Date);
             funcion.Hora = TimeOnly.FromDateTime(funcionRequest.Date);
             funcion.Precio = funcionRequest.Precio;
+            funcion.PeliculaId = funcionRequest.PeliculaId.Value;
+
+            var existingFuncion = _funcionRepository.GetFuncionByMovieDate(funcion.Fecha, funcion.Hora, funcion.PeliculaId);
+            if (existingFuncion != null)
+            {
+                var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId);
+                throw new Exception($"Ya hay una función programada de la película: {pelicula.NombrePelicula}, para la fecha {funcion.Fecha} a las {funcion.Hora}");
+            }
 
             if (funcionRequest.PeliculaId.HasValue)
             {
