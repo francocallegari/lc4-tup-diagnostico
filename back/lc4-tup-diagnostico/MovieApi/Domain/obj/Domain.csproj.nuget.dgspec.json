@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {}
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
-        "outputPath": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\anabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\anabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

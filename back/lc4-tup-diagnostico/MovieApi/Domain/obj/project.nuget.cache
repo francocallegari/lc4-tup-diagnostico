@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Y35bWUyARc=",
+  "dgSpecHash": "qRe5/ssbH3/MD9E9JDYaC2DZxLyKEtgiZVxRGiwPcBEtgQsVtvkRgDsSeEtNQkJlcZ771IaaB+Oy3LJdp51tSw==",
   "success": true,
-  "projectFilePath": "D:\\TUP\\4to cuatrimestre\\Laboratorio de Computacion 4\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\anabe\\OneDrive\\Documentos\\TP-Diagnostico\\lc4-tup-diagnostico\\back\\lc4-tup-diagnostico\\MovieApi\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

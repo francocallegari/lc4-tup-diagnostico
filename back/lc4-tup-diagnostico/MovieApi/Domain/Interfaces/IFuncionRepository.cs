@@ -11,5 +11,8 @@ namespace Domain.Interfaces
     {
         List<Funcion> GetFunciones();
         Funcion GetFuncionById(int id);
+        List<Funcion> GetFuncionesByDirectorDate(int directorId, DateOnly fecha);
+        List<Funcion> FuncionesWithInternationalMovies();
+        Funcion GetFuncionByMovieDate(DateOnly fecha, TimeOnly hora, int peliculaId);
     }
 }
