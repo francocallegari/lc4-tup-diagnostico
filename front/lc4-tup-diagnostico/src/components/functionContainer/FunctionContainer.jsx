@@ -152,7 +152,7 @@ const FunctionContainer = () => {
           onEdit={openEditModal}
         />
       )}
-      <Button onClick={() => setShowModal(true)}>Añadir función</Button>
+      <Button onClick={() => setShowModal(true)} variant="light">Añadir función</Button>
       <FunctionModal
         show={showModal}
         onHide={() => setShowModal(false)}

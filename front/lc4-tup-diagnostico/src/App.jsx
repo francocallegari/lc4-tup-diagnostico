@@ -7,6 +7,7 @@ const App = () => {
   return (
     <div>
       <h1>MiCine App</h1>
+      <br></br>
       <FunctionContainer />
     </div>
   );
