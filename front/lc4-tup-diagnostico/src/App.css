@@ -10,6 +10,16 @@
   position: fixed;
   top: 10px;
   right: 10px;
-  width: auto; 
+  width: auto;
   z-index: 1050;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../src/images/view-3d-cinema-theatre-room.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
