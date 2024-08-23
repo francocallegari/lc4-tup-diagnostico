@@ -36,70 +36,87 @@ namespace Infrastructure.Data
                 .Property(p => p.OrigenPelicula)
                 .HasConversion(new EnumToStringConverter<OrigenPelicula>());
 
+            // Películas
             modelBuilder.Entity<Pelicula>().HasData(
                 new Pelicula
                 {
                     IdPelicula = 1,
-                    NombrePelicula = "Harry Potter",
+                    NombrePelicula = "Harry Potter y el prisionero de Azkaban",
                     OrigenPelicula = OrigenPelicula.Internacional,
                     DirectorPeliculaId = 1
-                    
-                   
-                }
-            );
-            modelBuilder.Entity<Pelicula>().HasData(
+                },
                 new Pelicula
                 {
                     IdPelicula = 2,
                     NombrePelicula = "El señor de los anillos",
                     OrigenPelicula = OrigenPelicula.Internacional,
                     DirectorPeliculaId = 2
-
-
-                }
-            );
-            modelBuilder.Entity<Pelicula>().HasData(
+                },
                 new Pelicula
                 {
                     IdPelicula = 3,
                     NombrePelicula = "Matrix",
                     OrigenPelicula = OrigenPelicula.Internacional,
                     DirectorPeliculaId = 3
-
-
+                },
+                new Pelicula
+                {
+                    IdPelicula = 4,
+                    NombrePelicula = "Relatos Salvajes",
+                    OrigenPelicula = OrigenPelicula.Nacional,
+                    DirectorPeliculaId = 4
+                },
+                new Pelicula
+                {
+                    IdPelicula = 5,
+                    NombrePelicula = "Pizza, birra, faso",
+                    OrigenPelicula = OrigenPelicula.Nacional,
+                    DirectorPeliculaId = 5
+                },
+                new Pelicula
+                {
+                    IdPelicula = 6,
+                    NombrePelicula = "Esperando la carroza",
+                    OrigenPelicula = OrigenPelicula.Nacional,
+                    DirectorPeliculaId = 6
                 }
             );
 
-            //directores
+            // Directores
             modelBuilder.Entity<Director>().HasData(
                 new Director
                 {
                     DirectorId = 1,
                     Nombre = "Chris Columbus"
-
-
-                }
-            );
-            modelBuilder.Entity<Director>().HasData(
+                },
                 new Director
                 {
                     DirectorId = 2,
                     Nombre = "Peter Jackson"
-
-
-                }
-            );
-            modelBuilder.Entity<Director>().HasData(
+                },
                 new Director
                 {
                     DirectorId = 3,
                     Nombre = "Lana Wachowski"
-
-
+                },
+                new Director
+                {
+                    DirectorId = 4,
+                    Nombre = "Damián Szifron"
+                },
+                new Director
+                {
+                    DirectorId = 5,
+                    Nombre = "Israel Adrián Caetano"
+                },
+                new Director
+                {
+                    DirectorId = 6,
+                    Nombre = "Alejandro Doria"
                 }
             );
+
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }
