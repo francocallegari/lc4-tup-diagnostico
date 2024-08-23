@@ -8,6 +8,12 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
     return <p>No se encontraron funciones.</p>;
   }
 
+  const formatDateToShow = (dateString) => {
+    const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+    const date = new Date(dateString);
+    return date.toLocaleDateString('es-ES', options);
+  };
+
   return (
     <div className="table-container">
       <Table striped bordered hover variant="dark">
@@ -26,7 +32,7 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
           {functions.map((func) => (
             <tr key={func.id}>
               <td>{func.id}</td>
-              <td>{func.fecha}</td>
+              <td>{formatDateToShow(func.fecha)}</td>
               <td>{func.horario}</td>
               <td>{func.pelicula.nombre}</td>
               <td>{func.pelicula.director.nombre}</td>
