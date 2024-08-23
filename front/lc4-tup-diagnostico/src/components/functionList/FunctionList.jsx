@@ -14,6 +14,12 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
     return date.toLocaleDateString('es-ES', options);
   };
 
+  const formatTimeToShow = (timeString) => {
+    const options = { hour: '2-digit', minute: '2-digit' };
+    const time = new Date(`1970-01-01T${timeString}`); 
+    return time.toLocaleTimeString('es-ES', options);
+  };
+
   return (
     <div className="table-container">
       <Table striped bordered hover variant="dark">
@@ -33,7 +39,7 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
             <tr key={func.id}>
               <td>{func.id}</td>
               <td>{formatDateToShow(func.fecha)}</td>
-              <td>{func.horario}</td>
+              <td>{formatTimeToShow(func.horario)}</td>
               <td>{func.pelicula.nombre}</td>
               <td>{func.pelicula.director.nombre}</td>
               <td>{func.precio}</td>
