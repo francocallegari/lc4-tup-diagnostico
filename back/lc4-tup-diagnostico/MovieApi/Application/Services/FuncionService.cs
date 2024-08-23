@@ -39,6 +39,12 @@ namespace Application.Services
         {
             var pelicula = _peliculaRepository.GetPeliculaById(funcionRequest.PeliculaId)
                 ?? throw new Exception("Película no encontrada");
+            var peliculasInternacionales = _funcionRepository.FuncionesWithInternationalMovies();
+
+            if (peliculasInternacionales.Count == 8)
+            {
+                throw new Exception("Límite de funciones de películas internacionales alcanzado (Máximo 8)");
+            }
 
             var funcionNueva = new Funcion
             {
@@ -48,6 +54,18 @@ namespace Application.Services
                 PeliculaId = funcionRequest.PeliculaId,
                 Pelicula = pelicula
             };
+
+            var directorFunciones = _funcionRepository.GetFuncionesByDirectorDate(pelicula.DirectorPeliculaId, funcionNueva.Fecha);
+            if (directorFunciones.Count == 10)
+            {
+                throw new Exception($"Límite de funciones del director {pelicula.Director.Nombre} alcanzado (Máximo 10 por día)");
+            }
+
+            var existingFuncion = _funcionRepository.GetFuncionByMovieDate(funcionNueva.Fecha, funcionNueva.Hora, pelicula.IdPelicula);
+            if (existingFuncion != null)
+            {
+                throw new Exception($"Ya hay una función programada de la película: {pelicula.NombrePelicula}, para la fecha {funcionNueva.Fecha} a las {funcionNueva.Hora}");
+            }
 
             var funcion = _funcionRepository.Add(funcionNueva);
             return FuncionDto.Create(funcion);
