@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
+import AlertSign from "../alertSign/AlertSign";
 
 const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
   const [fechaHora, setFechaHora] = useState("");
   const [precio, setPrecio] = useState("");
   const [peliculaId, setPeliculaId] = useState("");
+  const [alertMessage, setAlertMessage] = useState("");
 
   const handleSubmit = () => {
-    if (
-      !fechaHora ||
-      !precio ||
-      !peliculaId
-    ) {
-      alert("Por favor complete todos los campos");
+    if (!fechaHora || !precio || !peliculaId) {
+      setAlertMessage("Por favor complete todos los campos");
       return;
     }
 
@@ -27,6 +25,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
     setFechaHora("");
     setPrecio("");
     setPeliculaId("");
+    setAlertMessage("");
   };
 
   return (
@@ -70,6 +69,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
                 ))}
             </Form.Control>
           </Form.Group>
+          <AlertSign message={alertMessage} variant="warning" />
         </Form>
       </Modal.Body>
       <Modal.Footer>
@@ -77,7 +77,7 @@ const FunctionModal = ({ show, onHide, onSubmit, peliculas }) => {
           Cerrar
         </Button>
         <Button variant="primary" onClick={handleSubmit}>
-          Agregar funcion
+          Agregar función
         </Button>
       </Modal.Footer>
     </Modal>
