@@ -46,7 +46,7 @@ const FunctionContainer = () => {
       } catch (err) {
         setError("Failed to fetch data");
         setLoading(false);
-        setErrorMsj("Erro al cargar la información");
+        setErrorMsj("Error al cargar la información");
       }
     };
 

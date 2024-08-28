@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
+import ConfirmationModal from "../confirmationModal/ConfirmationModal";
 import './functionList.css';
 
 const FunctionList = ({ functions, onDelete, onEdit }) => {
+  const [showModal, setShowModal] = useState(false);
+  const [funcToDelete, setFuncToDelete] = useState(null);
+
   if (functions.length === 0) {
     return <p>No se encontraron funciones.</p>;
   }
@@ -16,8 +20,18 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
 
   const formatTimeToShow = (timeString) => {
     const options = { hour: '2-digit', minute: '2-digit' };
-    const time = new Date(`1970-01-01T${timeString}`); 
+    const time = new Date(`1970-01-01T${timeString}`);
     return time.toLocaleTimeString('es-ES', options);
+  };
+
+  const handleDeleteClick = (func) => {
+    setFuncToDelete(func);
+    setShowModal(true);
+  };
+
+  const handleConfirmDelete = () => {
+    onDelete(funcToDelete.id);
+    setShowModal(false);
   };
 
   return (
@@ -47,7 +61,7 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
                 <Button variant="warning" onClick={() => onEdit(func)}>
                   Editar
                 </Button>
-                <Button variant="danger" onClick={() => onDelete(func.id)}>
+                <Button variant="danger" onClick={() => handleDeleteClick(func)}>
                   Eliminar
                 </Button>
               </td>
@@ -55,8 +69,17 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
           ))}
         </tbody>
       </Table>
+
+      <ConfirmationModal
+        show={showModal}
+        handleClose={() => setShowModal(false)}
+        handleConfirm={handleConfirmDelete}
+        title="Confirmar eliminación"
+        body={`¿Deseas eliminar esta función de la película "${funcToDelete?.pelicula.nombre}"?`}
+      />
     </div>
   );
 };
 
 export default FunctionList;
+
