@@ -13,8 +13,9 @@ const FunctionList = ({ functions, onDelete, onEdit }) => {
   }
 
   const formatDateToShow = (dateString) => {
+    const [year, month, day] = dateString.split('-');
+    const date = new Date(year, month - 1, day);
     const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
-    const date = new Date(dateString);
     return date.toLocaleDateString('es-ES', options);
   };
 
